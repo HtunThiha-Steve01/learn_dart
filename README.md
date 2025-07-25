@@ -45,3 +45,5 @@ dependencies:
 
 ## 📝 Fundamentals
 - [Write Hello World](dart_fundamentals/helloworld.dart)
+- [Basic Data Types](dart_fundamentals/basic_data_types.dart)
+- [Collection Data Types](dart_fundamentals/collection_data_types.dart)
