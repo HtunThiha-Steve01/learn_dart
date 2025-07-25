@@ -17,6 +17,14 @@ void runLists() {
   List emptyList = List.empty();
   emptyList = [];
   describeList(emptyList);
+
+  // Disadvantages of using List without generic type
+  // You cannot access class-related methods of elements in the list safely anymore
+  // print(randomElementsList[1].isEven); // will cause error because element[1] is String
+
+  List<int> integersList = [1, 2, 3, 4];
+  print(integersList[1].isEven); // can use this for every element because this is integers list
+  // Unless for any special reason, it is always optimal to use generic-typed Collection objects
 }
 
 void describeList(List list) {
