@@ -35,5 +35,13 @@ dependencies:
 
 # 🏫 Learning Sequence in This Repository
 
+## 🛠️ How to run Dart files
+- ### For dart_fundamentals
+
+    ```bash
+    cd dart_fundamentals
+    dart run <file_name>.dart
+    ```
+
 ## 📝 Fundamentals
 - [Write Hello World](dart_fundamentals/helloworld.dart)
